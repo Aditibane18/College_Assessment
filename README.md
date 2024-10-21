@@ -28,3 +28,30 @@ str1 = "heap", str2 = "pea"
 Output :
 Minimum Deletion = 2 and
 Minimum Insertion = 1
+
+## Question 3
+Create a python code to demonstrate the working of decision tree, for the input use knowledge base:
+K_Base = {
+   "Is the computer powering on?": {
+        "Yes": {
+            "Is there a beeping sound?": {
+                "Yes": "Check the RAM and CPU",
+                "No": {
+                    "Is the display showing any output?": {
+                        "Yes": "Check the display connections and settings",
+                        "No": "Check the power supply and motherboard"
+                    }
+                }
+            }
+        },
+        "No": "Check the power supply and cables"
+    }
+}
+  }
+ },
+        "No": "Check the power supply and cables"
+    }
+}
+
+## Question 4
+Create a program to find out if a number plate is valid or not.The most common format for private vehicles in India is "XX NN YY NNNN", where: "XX" represents two uppercase letters indicating the code of the state or union territory where the vehicle is registered. "NN" represents two digits indicating the RTO (Regional Transport Office) code within the state. "YY" represents two uppercase letters indicating a series. "NNNN" represents a four-digit number. For example, a private vehicle registered in Maharashtra might have a number plate like "MH 12 AB 1234".
